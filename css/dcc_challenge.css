@@ -1,0 +1,291 @@
+/*
+DCC King's Challenge Character Funnel css
+*/
+
+/*HTML RULES*/
+body {
+	max-width: 100%;
+	background-color: #FFFFFF;
+	font-size: 1em;
+	font-family: arial,verdana, helvetica,sans-serif;
+	margin: 0;
+	padding: 0 0 0 0;
+}
+
+section {
+	position: relative;
+    margin-bottom: 50px;
+}
+
+article {
+    
+	position: relative;
+    left: 50px;
+    width: 1050px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #00BFFF;
+    
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    
+    -webkit-column-rule: 1px solid #00BFFF; /* Chrome, Safari, Opera */
+    -moz-column-rule: 1px solid #00BFFF; /* Firefox */
+    column-rule: 1px solid #00BFFF;
+    
+}
+
+aside {
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+h2 {
+    font-size: 1.6em;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/*ID RULES*/
+
+
+#firstlink {
+    position: absolute;
+    display: block;
+    left: 50px;
+    top: 120px;
+    width: 139px;
+    height: 40px;
+    background-image: url(../images/buttons/home.png);
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+#firstlink:hover {
+    background-image: url(../images/buttons/homehover.png);
+    text-decoration: none;
+}
+
+
+#secondlink {
+    position: absolute;
+    display: block;
+    left: 189px;
+    top: 120px;
+    width: 139px;
+    height: 40px;
+    background-image: url(../images/buttons/intro.png);
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+#secondlink:hover {
+    background-image: url(../images/buttons/introhover.png);
+    text-decoration: none;
+}
+
+
+#thirdlink {
+    position: absolute;
+    display: block;
+    left: 328px;
+    top: 120px;
+    width: 139px;
+    height: 40px;
+    background-image: url(../images/buttons/area1_6.png);
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+#thirdlink:hover {
+    background-image: url(../images/buttons/area1_6hover.png);
+    text-decoration: none;
+}
+
+
+#fourthlink {
+    position: absolute;
+    display: block;
+    left: 467px;
+    top: 120px;
+    width: 139px;
+    height: 40px;
+    background-image: url(../images/buttons/area7_11.png);
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+#fourthlink:hover {
+    background-image: url(../images/buttons/area7_11hover.png);
+    text-decoration: none;
+}
+
+
+#fifthlink {
+    position: absolute;
+    display: block;
+    left: 606px;
+    top: 120px;
+    width: 139px;
+    height: 40px;
+    background-image: url(../images/buttons/area12_16.png);
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+#fifthlink:hover {
+    background-image: url(../images/buttons/area12_16hover.png);
+    text-decoration: none;
+}
+
+#sixthlink {
+    position: absolute;
+    display: block;
+    left: 745px;
+    top: 120px;
+    width: 139px;
+    height: 40px;
+    background-image: url(../images/buttons/area17_21.png);
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+#sixthlink:hover {
+    background-image: url(../images/buttons/area17_21hover.png);
+    text-decoration: none;
+}
+
+#seventhlink {
+    position: absolute;
+    display: block;
+    left: 884px;
+    top: 120px;
+    width: 139px;
+    height: 40px;
+    background-image: url(../images/buttons/area22_26.png);
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+#seventhlink:hover {
+    background-image: url(../images/buttons/area22_26hover.png);
+    text-decoration: none;
+}
+
+
+#eighthlink {
+    position: absolute;
+    display: block;
+    left: 1023px;
+    top: 120px;
+    width: 139px;
+    height: 40px;
+    background-image: url(../images/buttons/area27.png);
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+#eighthlink:hover {
+    background-image: url(../images/buttons/area27hover.png);
+    text-decoration: none;
+}
+
+
+#title {
+    position: relative;
+    left: 50px;
+}
+
+#firstArticle {
+    
+	position: relative;
+    height: 1280px;
+    left: 50px;
+    top: 50px;
+    width: 1050px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #00BFFF;
+    
+}
+
+
+#mapA{
+	position:absolute;
+	top: 25px;
+	left: 75px;
+}
+
+
+#mapB{
+	position:absolute;
+	top: 25px;
+	left: 550px;
+}
+
+
+#mapD{
+	position:absolute;
+	top: 453px;
+	left: 75px;
+}
+
+
+#mapC{
+	position:absolute;
+	top: 453px;
+	left: 550px;
+}
+
+#mapE{
+	position:absolute;
+	top: 881px;
+	left: 75px;
+}
+
+
+#mapF{
+	position:absolute;
+	top: 881px;
+	left: 550px;
+}
+
+/*CLASS RULES*/
+
+
+.textbox {
+    position: relative;
+    border-width: medium;
+    border-style: solid;
+    border-color: #00BFFF;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*font-style: italic;*/
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.subtitle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.link {
+    text-decoration: none;
+}
